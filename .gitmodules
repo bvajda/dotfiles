@@ -7,3 +7,6 @@
 [submodule "vim/bundle/funcoo.vim"]
 	path = vim/bundle/funcoo.vim
 	url = git://github.com/rizzatti/funcoo.vim.git
+[submodule "vim/bundle/tabular"]
+	path = vim/bundle/tabular
+	url = git://github.com/godlygeek/tabular.git

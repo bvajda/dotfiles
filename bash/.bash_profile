@@ -1,4 +1,5 @@
-if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then source `brew --prefix`/etc/bash_completion.d/git-completion.bash; fi # for Git completion
+source ~/.git-completion.bash
+source ~/.git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=1
 export PS1="\\[\033[00m\]\w\[\033[00;33m\]\$(__git_ps1 \" (%s)\") \[\033[00m\]\$\[\033[00m\] " # green
 export PATH=/usr/local/bin:$PATH

@@ -3,7 +3,6 @@ source ~/.git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=1
 export PS1="\\[\033[00m\]\w\[\033[00;33m\]\$(__git_ps1 \" (%s)\") \[\033[00m\]\$\[\033[00m\] " # green
 export PATH=/usr/local/bin:$PATH
-export PATH=$PATH:/usr/local/Cellar/postgresql/9.0.4/bin
 export PATH=$PATH:~/bin
 export PATH=$PATH:/usr/local/heroku-client
 alias be='bundle exec'

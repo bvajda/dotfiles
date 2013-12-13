@@ -1,3 +1,5 @@
+set runtimepath^=~/.vim/autoload/pathogen.vim
+set nocp
 call pathogen#infect()
 " Ctrlp plugin
 set runtimepath^=~/.vim/bundle/ctrlp.vim

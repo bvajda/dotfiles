@@ -12,9 +12,6 @@ alias git=hub
 export PATH="/usr/local/heroku/bin:$PATH"
 export RUBYOPT=-Ku
 
-# Set startup options needed for maglev
-export MAGLEV_HOME="/Users/bence/.rbenv/versions/maglev-1.0.0"
-export PATH="$PATH:$MAGLEV_HOME/bin"
 export PATH="$PATH:/usr/local/sbin"
 export PATH="/usr/local/share/npm/bin:$PATH"
 

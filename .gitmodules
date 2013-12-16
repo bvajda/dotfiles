@@ -34,3 +34,6 @@
 [submodule "vim/bundle/vim-codereview"]
 	path = vim/bundle/vim-codereview
 	url = git@github.com:codegram/vim-codereview.git
+[submodule "vim/bundle/vim-surround"]
+	path = vim/bundle/vim-surround
+	url = git@github.com:tpope/vim-surround.git

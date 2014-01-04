@@ -5,6 +5,7 @@ export PS1="\\[\033[00m\]\w\[\033[00;33m\]\$(__git_ps1 \" (%s)\") \[\033[00m\]\$
 export PATH=/usr/local/bin:$PATH
 export PATH=$PATH:~/bin
 export PATH=$PATH:/usr/local/heroku-client
+export JAVA_HOME="$(/usr/libexec/java_home)"
 alias be='bundle exec'
 alias git=hub
 
